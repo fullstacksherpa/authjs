@@ -11,10 +11,10 @@ const SettingsPage = () => {
   };
 
   return (
-    <div>
-      {JSON.stringify(user)}
+    <div className="bg-white p-10 rounded-xl">
+      
 
-      <button type="submit" onClick={onClick}>
+      <button  onClick={onClick}>
         Sign Out
       </button>
     </div>
